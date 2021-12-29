@@ -1,6 +1,5 @@
 import time
 import os
-import random
 user1=52209
 password=90225
 captcha=(209+5+2+2-9)
@@ -81,10 +80,10 @@ if user == user1:
                 time.sleep(2)
                 
     else:
-        print('error')
+        print('Error')
         time.sleep(2)
   else: 
-    print('error')
+    print('Error')
     time.sleep(2)
 else:
   print('Error! Usuario no encontrado.')
